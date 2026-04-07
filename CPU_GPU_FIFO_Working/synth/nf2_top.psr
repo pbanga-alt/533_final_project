@@ -1,0 +1,240 @@
+Release 10.1.03 Physical Synthesis Report K.39 (lin64)
+Copyright (c) 1995-2007 Xilinx, Inc. All rights reserved.
+
+TABLE OF CONTENTS
+  1) Physical Synthesis Options Summary
+  2) Optimizations statistics and details
+
+
+=========================================================================
+*                 Physical Synthesis Options Summary                    *
+=========================================================================
+---- Options
+Global Optimization                 : OFF
+    Retiming                        : OFF
+    Equivalent Register Removal     : OFF
+Timing-Driven Packing and Placement : ON
+    Logic Optimization              : OFF
+    Register Duplication            : ON
+
+---- Target Parameters
+Target Device                       : 2vp50ff1152-7
+
+=========================================================================
+
+
+=========================================================================
+*                        Optimizations                                  *
+=========================================================================
+---- Statistics
+   Number of registers added by Replication                  | 199             
+
+   Overall change in number of registers                     | +199             
+
+
+---- Details
+
+New or modified components                             | Optimization             | Objective           
+-------------------------------------------------------|--------------------------|----------------------
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_177| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_178| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_179| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_180| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_181| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_182| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_183| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_184| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_185| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_186| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_187| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_188| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_189| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_190| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_191| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_192| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_193| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_194| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_123| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_124| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_125| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_126| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_127| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_128| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_129| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_130| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_131| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_132| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_133| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_134| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_135| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_136| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_137| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_138| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_139| Replication              | Fanout Optimization
+nf2_core/cpu_queues[2].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(3)_REPLICA_140| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_195| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_196| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_197| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_198| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_199| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_200| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_201| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_202| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_203| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_204| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_205| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_206| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_207| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_208| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_209| Replication              | Fanout Optimization
+nf2_core/cpu_queues[3].cpu_dma_queue_i/.cpu_dma_queue_regs/reg_cnt(0)_REPLICA_210| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_141| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_142| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_143| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_144| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_145| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_146| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_147| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_148| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_149| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_150| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_151| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_152| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_153| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(0)_REPLICA_154| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_105| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_106| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_107| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_108| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_109| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_110| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_111| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_112| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_113| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_114| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_115| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_116| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_117| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_118| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_119| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_120| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_121| Replication              | Fanout Optimization
+nf2_core/mac_groups[0].nf2_mac_grp/mac_grp_regs/reg_cnt(1)_REPLICA_122| Replication              | Fanout Optimization
+nf2_core/mac_groups[3].nf2_mac_grp/mac_grp_regs/reg_cnt_0_REPLICA_228| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_14_REPLICA_223| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_15_REPLICA_222| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_17_REPLICA_221| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_18_REPLICA_219| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_20_REPLICA_217| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_21_REPLICA_216| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_22_REPLICA_215| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_6_REPLICA_218| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_8_REPLICA_214| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_addr_out_9_REPLICA_220| Replication              | Fanout Optimization
+nf2_core/user_data_path/input_arbiter/in_arb_regs/reg_req_out_REPLICA_212| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_166| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_167| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_168| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_169| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_170| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_171| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_172| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_173| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_174| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_175| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/EX_ALUSrc_REPLICA_176| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/MEM_ALU_OUT_0_REPLICA_225| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/MEM_ALU_OUT_4_REPLICA_226| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/cpu_instance/MEM_ALU_OUT_6_REPLICA_224| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_0| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_1| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_10| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_11| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_12| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_13| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_14| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_15| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_16| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_17| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_18| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_19| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_2| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_20| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_21| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_22| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_23| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_24| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_3| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_4| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_5| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_6| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_7| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_8| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_ALUSrc_REPLICA_9| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_42| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_43| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_44| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_45| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_46| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_47| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_48| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_49| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_50| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_51| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_52| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_53| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_54| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_55| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_56| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_57| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_58| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_59| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_60| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_IsFP_REPLICA_61| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_63| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_64| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_65| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_66| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_67| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_68| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_69| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_70| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_71| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_72| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_73| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_74| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_75| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_76| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_77| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_78| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_79| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_80| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_81| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_82| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_83| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_84| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_85| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_86| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_87| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/EX0_imm(15)_REPLICA_88| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/gpu_instance/MEM_ALU_OUT_5_REPLICA_227| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_25| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_26| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_27| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_28| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_29| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_30| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_31| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_32| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_33| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_34| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_35| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_36| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_37| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_38| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_39| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_40| Replication              | Fanout Optimization
+nf2_core/user_data_path/network_processor/mem_port_master(1)_REPLICA_41| Replication              | Fanout Optimization
+
+
+

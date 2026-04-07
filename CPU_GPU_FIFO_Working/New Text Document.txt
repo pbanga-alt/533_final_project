@@ -1,0 +1,1 @@
+This code has the working synthesis file where the GPU, CPU and FIFO are integrated together and the final bitfile works for a single packet containing Payload data, Network streaming for multiple payload packets need to be implemented. 

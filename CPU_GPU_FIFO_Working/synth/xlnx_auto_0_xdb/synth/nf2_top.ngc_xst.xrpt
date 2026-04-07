@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="lin64" product="ISE" version="10.1.03">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="Xst" timeStamp="Sat Feb 14 21:18:57 2026">
+    <section stringID="XST_HDL_SYNTHESIS_REPORT">
+      <item dataType="int" stringID="XST_RAMS" value="46"></item>
+      <item dataType="int" stringID="XST_ROMS" value="5"></item>
+      <item dataType="int" stringID="XST_ADDERSSUBTRACTORS" value="130">
+        <item dataType="int" stringID="XST_10BIT_ADDER" value="2"/>
+        <item dataType="int" stringID="XST_16BIT_ADDER" value="4"/>
+        <item dataType="int" stringID="XST_32BIT_ADDER" value="23"/>
+        <item dataType="int" stringID="XST_8BIT_ADDER" value="4"/>
+      </item>
+      <item dataType="int" stringID="XST_COUNTERS" value="109">
+        <item dataType="int" stringID="XST_2BIT_UP_COUNTER" value="34"/>
+        <item dataType="int" stringID="XST_3BIT_UP_COUNTER" value="25"/>
+        <item dataType="int" stringID="XST_4BIT_UP_COUNTER" value="4"/>
+        <item dataType="int" stringID="XST_9BIT_UP_COUNTER" value="1"/>
+      </item>
+      <item dataType="int" stringID="XST_ACCUMULATORS" value="36"></item>
+      <item dataType="int" stringID="XST_REGISTERS" value="1542">
+        <item dataType="int" stringID="XST_1BIT_REGISTER" value="955"/>
+        <item dataType="int" stringID="XST_10BIT_REGISTER" value="18"/>
+        <item dataType="int" stringID="XST_11BIT_REGISTER" value="15"/>
+        <item dataType="int" stringID="XST_14BIT_REGISTER" value="8"/>
+        <item dataType="int" stringID="XST_16BIT_REGISTER" value="20"/>
+        <item dataType="int" stringID="XST_2BIT_REGISTER" value="30"/>
+        <item dataType="int" stringID="XST_22BIT_REGISTER" value="7"/>
+        <item dataType="int" stringID="XST_3BIT_REGISTER" value="62"/>
+        <item dataType="int" stringID="XST_32BIT_REGISTER" value="154"/>
+        <item dataType="int" stringID="XST_4BIT_REGISTER" value="46"/>
+        <item dataType="int" stringID="XST_5BIT_REGISTER" value="4"/>
+        <item dataType="int" stringID="XST_6BIT_REGISTER" value="12"/>
+        <item dataType="int" stringID="XST_8BIT_REGISTER" value="43"/>
+        <item dataType="int" stringID="XST_9BIT_REGISTER" value="5"/>
+      </item>
+      <item dataType="int" stringID="XST_COMPARATORS" value="124">
+        <item dataType="int" stringID="XST_3BIT_COMPARATOR_EQUAL" value="28"/>
+        <item dataType="int" stringID="XST_4BIT_COMPARATOR_EQUAL" value="4"/>
+      </item>
+      <item dataType="int" stringID="XST_MULTIPLEXERS" value="46">
+        <item dataType="int" stringID="XST_1BIT_4TO1_MULTIPLEXER" value="1"/>
+        <item dataType="int" stringID="XST_1BIT_8TO1_MULTIPLEXER" value="6"/>
+        <item dataType="int" stringID="XST_32BIT_4TO1_MULTIPLEXER" value="25"/>
+        <item dataType="int" stringID="XST_8BIT_8TO1_MULTIPLEXER" value="1"/>
+      </item>
+      <item dataType="int" stringID="XST_TRISTATES" value="9">
+        <item dataType="int" stringID="XST_1BIT_TRISTATE_BUFFER" value="5"/>
+      </item>
+      <item dataType="int" stringID="XST_XORS" value="440">
+        <item dataType="int" stringID="XST_1BIT_XOR2" value="224"/>
+        <item dataType="int" stringID="XST_1BIT_XOR3" value="96"/>
+        <item dataType="int" stringID="XST_1BIT_XOR6" value="16"/>
+      </item>
+    </section>
+  </application>
+
+</document>
