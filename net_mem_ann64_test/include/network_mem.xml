@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nf:module xmlns:nf="http://www.NetFPGA.org/NF2_register_system" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.NetFPGA.org/NF2_register_system NF2_register_system.xsd ">
+	<nf:name>network_mem</nf:name>
+	<nf:prefix>network_mem</nf:prefix>
+	<nf:location>udp</nf:location>
+	<nf:description>Registers for Network Memory FIFO</nf:description>
+	<nf:blocksize>256</nf:blocksize>
+	<nf:registers>
+
+		<!-- SOFTWARE REGISTERS (2 total) -->
+
+		<nf:register>
+			<nf:name>command_reg</nf:name>
+			<nf:description>Command register - bit[0]=cpu_run_enable, bit[1]=imem_we_debug, bit[2]=dmem_web_debug, bit[3]=debug_mode_select, bit[4]=la_arm, bit[5]=la_reset</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+		
+		<nf:register>
+			<nf:name>mem_addr</nf:name>
+			<nf:description>bram address</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+		
+		<nf:register>
+			<nf:name>mem_ann_addr</nf:name>
+			<nf:description>bram address</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+
+
+		<!-- HARDWARE REGISTERS (6 total) -->
+
+		<nf:register>
+			<nf:name>mem_data_lsb</nf:name>
+			<nf:description>memory 32 lsb</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		
+		<nf:register>
+			<nf:name>mem_data_msb</nf:name>
+			<nf:description>memory 32 msb</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+
+		<nf:register>
+			<nf:name>mem_ctrl</nf:name>
+			<nf:description>memory 8 ctrl bits</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+        <nf:register>
+			<nf:name>pkt_start_debug</nf:name>
+			<nf:description>pkt start addr</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+        <nf:register>
+			<nf:name>pkt_end_debug</nf:name>
+			<nf:description>pkt end addr</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+        <nf:register>
+			<nf:name>flag</nf:name>
+			<nf:description>flag reg</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+        <nf:register>
+			<nf:name>first_data_debug</nf:name>
+			<nf:description>ffirst data reg directly connected to input</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+        <nf:register>
+			<nf:name>head_ptr_debug</nf:name>
+			<nf:description>head_ptr_debug</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+        <nf:register>
+			<nf:name>tail_ptr_debug</nf:name>
+			<nf:description>tail_ptr_debug</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+        <nf:register>
+			<nf:name>payload_cycles_debug</nf:name>
+			<nf:description>payload_cycles_debug</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+        <nf:register>
+			<nf:name>curr_state_debug</nf:name>
+			<nf:description>curr_state_debug</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+
+        <nf:register>
+			<nf:name>out_wr_ct_debug</nf:name>
+			<nf:description>out_wr_ct_debug</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+			<nf:name>mem_ann_data_0</nf:name>
+			<nf:description>out_wr_ct_debug</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+			<nf:name>mem_ann_data_1</nf:name>
+			<nf:description>out_wr_ct_debug</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+			<nf:name>hw_result_addr</nf:name>
+			<nf:description>out_wr_ct_debug</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+	</nf:registers>
+</nf:module>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

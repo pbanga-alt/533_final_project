@@ -1,0 +1,14 @@
+/root/netfpga/projects/net_mem_cnn128_test/synth/nf2_top.ngc 1776909502
+/root/netfpga/projects/net_mem_cnn128_test/synth/FIFO_bram.ngc 1776580019
+/root/netfpga/projects/net_mem_cnn128_test/synth/activation_mem.ngc 1776904802
+/root/netfpga/projects/net_mem_cnn128_test/synth/srl_cam_unencoded_32x32.ngc 1392408693
+/root/netfpga/projects/net_mem_cnn128_test/synth/bram_cam_unencoded_32x32.ngc 1392408612
+/root/netfpga/projects/net_mem_cnn128_test/synth/syncfifo_512x72.ngc 1392409073
+/root/netfpga/projects/net_mem_cnn128_test/synth/cdq_tx_fifo_256x72_to_36.ngc 1392408366
+/root/netfpga/projects/net_mem_cnn128_test/synth/cdq_rx_fifo_512x36_to_72.ngc 1392408281
+/root/netfpga/projects/net_mem_cnn128_test/synth/txfifo_512x72_to_9.ngc 1392408420
+/root/netfpga/projects/net_mem_cnn128_test/synth/rxfifo_8kx9_to_72.ngc 1392408470
+/root/netfpga/projects/net_mem_cnn128_test/synth/rxlengthfifo_128x13.ngc 1392408389
+/root/netfpga/projects/net_mem_cnn128_test/synth/pci2net_16x60.ngc 1392408858
+/root/netfpga/projects/net_mem_cnn128_test/synth/net2pci_16x32.ngc 1392408827
+OK
